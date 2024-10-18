@@ -301,7 +301,7 @@ def indexobj(o, frame, nframes, nfaces):
     for face in range(0, len(o["faces"])):
         if face % 1000 == 0:
             print(
-                "\Reading obj ",
+                "Reading obj ",
                 frame + 1,
                 " of ",
                 nframes,
