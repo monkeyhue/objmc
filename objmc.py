@@ -385,8 +385,6 @@ def getvert(i, compression_enabled):
     rgb = []
 
     if compression_enabled:
-        if uvi >= 256:
-            raise "UVI exceeds 256"
         rgb.append(
             (
                 int((poi / 65536) % 256),
